@@ -1,6 +1,6 @@
-## Horizon Glint
+## Horizon Drift
 
-Horizon Glint is a high-performance, minimalist Minecraft Java launcher designed to provide a seamless, "enchanted" gateway to your game worlds. Built with a focus on aesthetic clarity and technical efficiency, it bridges the gap between complex mod management and a clean, modern user interface.
+Horizon Drift is a high-performance, minimalist Minecraft Java launcher designed to provide a seamless, "enchanted" gateway to your game worlds. Built with a focus on aesthetic clarity and technical efficiency, it bridges the gap between complex mod management and a clean, modern user interface.
 
 **Link to project:** [http://recruiters-love-seeing-live-demos.com/](http://recruiters-love-seeing-live-demos.com/)
 
@@ -18,7 +18,7 @@ The front end utilizes a highly customized UI layer to achieve the signature "Gl
 
 ## Optimizations
 
-Horizon Glint is engineered to be **extremely lightweight**. By utilizing **Python 3.8** and optimizing the way the application handles sub-processes, I ensured the launcher has a minimal memory footprint, leaving more resources available for the game itself.
+Horizon Drift is engineered to be **extremely lightweight**. By utilizing **Python 3.8** and optimizing the way the application handles sub-processes, I ensured the launcher has a minimal memory footprint, leaving more resources available for the game itself.
 
 Key technical optimizations include:
 
@@ -34,3 +34,6 @@ Key technical optimizations include:
 **Smart JVM Injection:** The launcher dynamically calculates the best heap size and garbage collection flags for your specific hardware, significantly reducing "stutter" during Minecraft gameplay.
 
 ---
+
+*
+**Please Star The Repo if it worked for you! , Cheers**
