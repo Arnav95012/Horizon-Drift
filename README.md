@@ -2,7 +2,7 @@
 
 Horizon Drift is a high-performance, minimalist Minecraft Java launcher designed to provide a seamless, "enchanted" gateway to your game worlds. Built with a focus on aesthetic clarity and technical efficiency, it bridges the gap between complex mod management and a clean, modern user interface.
 
-**Link to project:** [http://recruiters-love-seeing-live-demos.com/](http://recruiters-love-seeing-live-demos.com/)
+**Link to projects:** [My Portfolio](http://codelunar.web.app)
 
 ---
 
