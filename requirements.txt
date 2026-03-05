@@ -1,0 +1,4 @@
+PyQt5==5.15.9
+minecraft-launcher-lib>=6.3
+requests==2.31.0
+psutil==5.9.8
