@@ -3,68 +3,71 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Horizon Glint | Enchanted Launcher</title>
-    <style>
-        body {
-            background-color: #0d0d0d;
-            color: #e0e0e0;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            height: 100vh;
-            margin: 0;
-            text-align: center;
-        }
-        .container {
-            border: 2px solid #a335ee;
-            padding: 40px;
-            border-radius: 20px;
-            background: #1a1a1a;
-            box-shadow: 0 0 20px #a335ee55;
-        }
-        h1 {
-            color: #a335ee;
-            font-size: 3rem;
-            margin-bottom: 10px;
-            text-shadow: 2px 2px 4px #000;
-        }
-        p {
-            font-size: 1.2rem;
-            max-width: 600px;
-            margin-bottom: 30px;
-        }
-        .download-btn {
-            background-color: #a335ee;
-            color: white;
-            padding: 15px 30px;
-            text-decoration: none;
-            font-weight: bold;
-            border-radius: 10px;
-            transition: 0.3s;
-            box-shadow: 0 4px 15px rgba(163, 53, 238, 0.4);
-        }
-        .download-btn:hover {
-            background-color: #8a2be2;
-            transform: scale(1.05);
-            box-shadow: 0 0 25px #a335ee;
-        }
-        .tagline {
-            font-style: italic;
-            color: #888;
-            margin-top: 20px;
-        }
-    </style>
+    <title>Horizon Glint | The Enchanted Launcher</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-    <div class="container">
-        <h1>🌌 Horizon Glint</h1>
-        <p>A high-performance, minimalist Minecraft Java launcher built for speed and style. Experience the "Glint" with intelligent resource management and a clean obsidian interface.</p>
-        
-        <a href="https://github.com/arnav95012/Horizon-Glint/releases" class="download-btn">Download Latest Release</a>
-        
-        <div class="tagline">Refined by Intelligence. Defined by the Glint.</div>
-    </div>
+    <nav>
+        <div class="nav-content">
+            <div class="logo">🌌 Horizon Glint</div>
+            <div class="nav-links">
+                <a href="#features">Features</a>
+                <a href="#gallery">Gallery</a>
+                <a href="https://github.com/arnav95012/Horizon-Glint" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="hero-text hidden">
+            <h1>Beyond the <span class="glint-text">Surface</span>.</h1>
+            <p>A high-performance, minimalist Minecraft Java launcher. Refined by intelligence, defined by the glint. Launch at the speed of thought.</p>
+            <div class="hero-buttons">
+                <a href="https://github.com/arnav95012/Horizon-Glint/releases" class="btn btn-primary"><i class="fas fa-download"></i> Download for Windows</a>
+                <a href="#features" class="btn btn-secondary">Learn More</a>
+            </div>
+        </div>
+        <div class="hero-image hidden">
+            <img src="src/screenshot-1.png" alt="Horizon Glint Interface">
+        </div>
+    </header>
+
+    <section id="features" class="features">
+        <h2 class="hidden">Why Horizon Glint?</h2>
+        <div class="feature-grid">
+            <div class="feature-card hidden">
+                <i class="fas fa-microchip"></i>
+                <h3>Smart Allocation</h3>
+                <p>Automatically calculates optimal Java arguments and RAM distribution based on your PC's hardware.</p>
+            </div>
+            <div class="feature-card hidden">
+                <i class="fas fa-bolt"></i>
+                <h3>Zero-Friction Launch</h3>
+                <p>Extremely lightweight Python backend stays under 50MB of RAM. No bloat, just pure performance.</p>
+            </div>
+            <div class="feature-card hidden">
+                <i class="fas fa-layer-group"></i>
+                <h3>Aura Instances</h3>
+                <p>Effortlessly organize Vanilla, Snapshots, and Modpacks with color-coded, isolated environments.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery" class="gallery">
+        <h2 class="hidden">Interface Showcase</h2>
+        <div class="gallery-grid hidden">
+            <img src="src/screenshot-2.png" alt="Feature 1">
+            <img src="src/screenshot-3.png" alt="Feature 2">
+            <img src="src/screenshot-4.png" alt="Feature 3">
+            <img src="src/screenshot-5.png" alt="Feature 4">
+        </div>
+    </section>
+
+    <footer>
+        <p>Built with 💜 by Arnav. Powered by Python & Google AI Studio.</p>
+    </footer>
+
+    <script src="script/script.js"></script>
 </body>
 </html>
